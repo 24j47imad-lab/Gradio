@@ -7,7 +7,7 @@ def greet(name):
 
 demo = gr.Interface(
     fn=greet,
-    inputs=[gr.Textbox(label="Enter Your Name")],
+    inputs=[gr.Textbox(label="Enter You are Name")],
     outputs=[gr.Textbox(label="Greeting Message")],
     title="Personal Greeting App",
     description="Enter your name to get a personalized welcome message."
